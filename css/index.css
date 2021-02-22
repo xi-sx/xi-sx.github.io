@@ -1,0 +1,204 @@
+/* 修改container的最大宽度为1280px */
+
+@media screen and (min-width:1280px) {
+    .container {
+        width: 1280px;
+    }
+}
+
+body {
+    background-color: #eee;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    color: #898989;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.logo {
+    background-color: #ff5e52;
+}
+
+.logo img {
+    display: block;
+    /* width: 100%; */
+    /* logo 图片不需要缩放 */
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+@media screen and (max-width:767px) {
+    .nav {
+        overflow: hidden;
+    }
+    .nav ul {
+        width: 500%;
+    }
+    .nav ul li {
+        float: left;
+        margin-right: 14px;
+    }
+}
+
+.nav {
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+}
+
+.nav ul {
+    padding-left: 20px;
+}
+
+.nav a {
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    font-size: 16px;
+}
+
+.nav a::before {
+    vertical-align: middle;
+    padding-right: 5px;
+}
+
+.banner {
+    padding: 20px 0;
+}
+
+.banner img {
+    width: 100%;
+}
+
+.publish {
+    background-color: #fff;
+    padding: 10px;
+}
+
+.publish h3 strong {
+    font-weight: normal;
+    border-bottom: 2px solid #ff5e52;
+}
+
+.publish span {
+    position: relative;
+    padding: 5px;
+    height: 20px;
+    background-color: #ff6e64;
+    color: #fff;
+}
+
+.publish span a {
+    color: #fff;
+}
+
+.publish i {
+    position: absolute;
+    top: 7px;
+    left: 101px;
+    border: 5px solid transparent;
+    border-left-color: #ff6e64;
+}
+
+.publish h4 {
+    display: inline;
+}
+
+.publish h4 a {
+    padding-left: 5px;
+    font-size: 22px;
+    height: 40px;
+    color: #000;
+    line-height: 40px;
+}
+
+.publish .row {
+    padding: 5px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.publish .row button {
+    width: 70px;
+    text-align: center;
+    font-size: 10px;
+    height: 26px;
+    line-height: 12px;
+}
+
+.publish img {
+    padding-top: 30px;
+    /* width: 100%; */
+    max-width: 100%;
+}
+
+aside {
+    margin-top: 20px;
+}
+
+.news {
+    padding: 3px 15px;
+    background-color: #fff;
+    border-bottom: 1px solid #eee;
+}
+
+.news strong {
+    font-weight: normal;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #ff6e64;
+    line-height: 10px;
+}
+
+.news p {
+    float: left;
+    padding-top: 3px;
+    width: 67%;
+}
+
+.news p a {
+    line-height: 12px;
+    font-size: 13px;
+    color: #000;
+}
+
+.news img {
+    width: 30%;
+    margin-left: 5px;
+}
+
+.search {
+    background-color: #fff;
+}
+
+.search strong {
+    font-weight: normal;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #ff6e64;
+    line-height: 10px;
+}
+
+.search {
+    padding: 10px;
+}
+
+.search input {
+    float: left;
+    margin-top: 10px;
+    width: 70%;
+    border-right: none;
+    border-radius: 0;
+}
+
+.search button {
+    height: 34px;
+    width: 30%;
+    margin-top: 10px;
+    border: none;
+    background-color: #ff776c;
+    color: #fff;
+}

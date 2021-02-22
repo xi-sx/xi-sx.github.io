@@ -1,0 +1,304 @@
+﻿
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=11,IE=10,IE=9,IE=8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+<meta http-equiv="Cache-Control" content="no-transform">
+<meta http-equiv="Cache-Control" content="no-siteapp">
+<title>WordPress主题：阿里百秀XIU主题7.7版本更新：新增兼容PHP 8.0、标签页SEO、手机端底部菜单和一些优化-搜刮好东西</title>
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="搜刮好东西 &raquo; WordPress主题：阿里百秀XIU主题7.7版本更新：新增兼容PHP 8.0、标签页SEO、手机端底部菜单和一些优化评论Feed" href="http://www.sogua2008.com/9232.html/feed" />
+<link rel='stylesheet' id='wp-block-library-css'  href='http://www.sogua2008.com/wp-includes/css/dist/block-library/style.min.css?ver=5.6' type='text/css' media='all' />
+<link rel='stylesheet' id='poster-style-css'  href='http://www.sogua2008.com/wp-content/plugins/WP-Poster/static/css/style.css?ver=5.6' type='text/css' media='all' />
+<link rel='stylesheet' id='main-css'  href='http://www.sogua2008.com/wp-content/themes/xiu/style.css?ver=7.6' type='text/css' media='all' />
+<link rel="https://api.w.org/" href="http://www.sogua2008.com/wp-json/" /><link rel="alternate" type="application/json" href="http://www.sogua2008.com/wp-json/wp/v2/posts/9232" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.sogua2008.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.sogua2008.com/wp-includes/wlwmanifest.xml" /> 
+<link rel="canonical" href="http://www.sogua2008.com/9232.html" />
+<link rel="alternate" type="application/json+oembed" href="http://www.sogua2008.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.sogua2008.com%2F9232.html" />
+<link rel="alternate" type="text/xml+oembed" href="http://www.sogua2008.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.sogua2008.com%2F9232.html&#038;format=xml" />
+<meta name="keywords" content="WordPress主题, xiu, XIU主题, 阿里百秀, wordpress主题, ">
+<meta name="description" content="搜刮好东西分享简介：XIU主题是非常不错的一款主题，本站所使用的就是Xiu主题。XIU主题是介于DUX和TOB之间的一款主题，既有资讯的浏览，也有图片的展示，尤其是多图展示的图片列表备受大家喜爱。    XIU主题是专注图文展示的一款WordPress主题，目前使用者众多。  本次XIU主题更新重点">
+<!--ADD_CODE_HEADER_START-->
+<meta property="qc:admins" content="114616471763775120006375" />
+<!--ADD_CODE_HEADER_END-->
+<link rel="shortcut icon" href="http://www.sogua2008.com/favicon.ico">
+<!--[if lt IE 9]><script src="http://www.sogua2008.com/wp-content/themes/xiu/js/html5.js"></script><![endif]-->
+</head>
+<body class="post-template-default single single-post postid-9232 single-format-standard post_p_indent m-home-most uimo sticky-m ui-c3">
+<section class="container">
+<header class="header">
+	<div class="logo"><a href="http://www.sogua2008.com" title="搜刮好东西-好东西分享、源码分享、免费分享、营销推广、技术交流。"><img class="logo-img-pc" src="http://www.sogua2008.com/static/images/logo.png" alt="搜刮好东西"><img class="logo-img-m" src="http://www.sogua2008.com/static/images/logo.png" alt="搜刮好东西">搜刮好东西</a></div>	<ul class="nav"><li class="navmore"><i class="glyphicon glyphicon-align-justify"></i></li><li id="menu-item-23" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-23"><a href="http://www.sogua2008.com/"><span class="glyphicon glyphicon-home"></span>网站首页</a></li>
+<li id="menu-item-19" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-19"><a href="http://www.sogua2008.com/yuanma"><span class="glyphicon glyphicon-heart"></span>好东西分享</a>
+<ul class="sub-menu">
+	<li id="menu-item-3019" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3019"><a href="http://www.sogua2008.cn/forum.php?gid=36">VIP资源</a></li>
+	<li id="menu-item-1578" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1578"><a href="http://www.sogua2008.com/yuanma/php-ym">php源码</a></li>
+	<li id="menu-item-3119" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor menu-item-has-children menu-item-3119"><a href="http://www.sogua2008.com/muban">模板插件</a>
+	<ul class="sub-menu">
+		<li id="menu-item-3121" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-3121"><a href="http://www.sogua2008.com/muban/wpthemes">wordpress主题</a></li>
+		<li id="menu-item-3122" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3122"><a href="http://www.sogua2008.com/muban/wpplug">wordpress插件</a></li>
+		<li id="menu-item-3992" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3992"><a href="http://www.sogua2008.com/muban/dzthemes">Discuz模板</a></li>
+		<li id="menu-item-4376" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-4376"><a href="http://www.sogua2008.com/muban/dedecms">dedecms模板</a></li>
+		<li id="menu-item-5142" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-5142"><a href="http://www.sogua2008.com/muban/qtthemes">其它模板</a></li>
+		<li id="menu-item-5141" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-5141"><a href="http://www.sogua2008.com/muban/qtplug">其它插件</a></li>
+	</ul>
+</li>
+	<li id="menu-item-1580" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1580"><a href="http://www.sogua2008.com/yuanma/asp-ym">asp源码</a></li>
+	<li id="menu-item-1581" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1581"><a href="http://www.sogua2008.com/yuanma/net-ym">net源码</a></li>
+	<li id="menu-item-1577" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1577"><a href="http://www.sogua2008.com/soft">软件分享</a></li>
+	<li id="menu-item-2801" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2801"><a href="http://www.sogua2008.com/ymhost">免费空间</a></li>
+</ul>
+</li>
+<li id="menu-item-7109" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-has-children menu-item-7109"><a href="http://www.sogua2008.com/muban/wpthemes"><span class="glyphicon glyphicon-leaf"></span>WordPress</a>
+<ul class="sub-menu">
+	<li id="menu-item-7110" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-7110"><a href="http://www.sogua2008.com/muban/wpthemes">wordpress主题</a></li>
+	<li id="menu-item-7111" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-7111"><a href="http://www.sogua2008.com/muban/wpplug">wordpress插件</a></li>
+	<li id="menu-item-7222" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-7222"><a href="http://www.sogua2008.com/jishu/wpjc">WordPress教程</a></li>
+</ul>
+</li>
+<li id="menu-item-3123" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-3123"><a href="http://www.sogua2008.com/jishu"><span class="glyphicon glyphicon-star"></span>技术教程</a>
+<ul class="sub-menu">
+	<li id="menu-item-5599" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-5599"><a href="http://www.sogua2008.com/jishu">网络技术</a></li>
+	<li id="menu-item-4258" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-4258"><a href="http://www.sogua2008.com/taoke">淘客学堂</a></li>
+	<li id="menu-item-1583" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1583"><a href="http://www.sogua2008.com/yingxiao">营销运营</a></li>
+	<li id="menu-item-1582" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1582"><a href="http://www.sogua2008.com/juanzeng">胡言乱语</a></li>
+</ul>
+</li>
+<li id="menu-item-5118" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5118"><a target="_blank" rel="noopener" href="http://www.sogua2008.cn"><span class="glyphicon glyphicon-send"></span>源码社区</a></li>
+<li id="menu-item-3462" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3462"><a target="_blank" rel="noopener" href="https://www.100doo.net"><span class="glyphicon glyphicon-shopping-cart"></span>搜刮好货</a>
+<ul class="sub-menu">
+	<li id="menu-item-7404" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7404"><a target="_blank" rel="noopener" href="http://www.100doo.net/index.php?r=l">好货精选</a></li>
+	<li id="menu-item-7403" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7403"><a target="_blank" rel="noopener" href="https://www.100doo.net/index.php?r=nine">9块9包邮</a></li>
+	<li id="menu-item-7405" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7405"><a target="_blank" rel="noopener" href="http://www.100doo.net/index.php?r=p">好货疯抢榜</a></li>
+</ul>
+</li>
+<li id="menu-item-7459" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7459"><a href="http://www.sogua2008.com/site"><span class="glyphicon glyphicon-thumbs-up"></span>好站推荐</a></li>
+<li id="menu-item-6097" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6097"><a href="http://www.sogua2008.com/videos"><span class="glyphicon glyphicon-film"></span>视频解析</a></li>
+<li id="menu-item-3448" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3448"><a href="http://www.sogua2008.com/ad"><span class="glyphicon glyphicon-fire"></span>广告招商</a></li>
+<li id="menu-item-3446" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3446"><a href="http://www.sogua2008.com/hongbao"><span class="glyphicon glyphicon-th-list"></span>更多栏目</a>
+<ul class="sub-menu">
+	<li id="menu-item-4830" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4830"><a href="http://www.sogua2008.com/hongbao">赞助本站</a></li>
+	<li id="menu-item-3901" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3901"><a href="http://www.sogua2008.com/tougao">投稿中心</a></li>
+	<li id="menu-item-3449" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3449"><a href="http://www.sogua2008.com/links">友情链接</a></li>
+	<li id="menu-item-3447" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy menu-item-3447"><a href="http://www.sogua2008.com/copyright">免责声明</a></li>
+	<li id="menu-item-4829" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4829"><a href="http://www.sogua2008.com/vip">开通VIP</a></li>
+	<li id="menu-item-3458" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3458"><a href="http://www.sogua2008.com/qq">QQ交流群</a></li>
+	<li id="menu-item-3480" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3480"><a href="http://www.sogua2008.com/likes">点赞墙</a></li>
+	<li id="menu-item-3485" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3485"><a href="http://www.sogua2008.com/archives">文章存档</a></li>
+	<li id="menu-item-3489" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3489"><a href="http://www.sogua2008.com/tags">标签云</a></li>
+</ul>
+</li>
+</ul>	<form method="get" class="search-form" action="http://zhannei.baidu.com/cse/site?&ie=gbk" target="_blank"><input name="cc" value="sogua2008.com" type="hidden"/><input name="s" value="" type="hidden"/><input name="nsid" value="" type="hidden"/><input class="form-control" name="q" type="text" placeholder="输入关键字" value=""><input class="btn" type="submit" value="搜索"></form>	<span class="glyphicon glyphicon-search m-search"></span>	<div class="feeds">
+					<a class="feed feed-facebook" rel="external nofollow" href="http://wpa.qq.com/msgrd?v=3&uin=158631386&site=&menu=yes&from=sogua2008com" target="_blank"><i></i>QQ</a>
+					<a class="feed feed-twitter" rel="external nofollow" href="http://shang.qq.com/wpa/qunwpa?idkey=713ff880bcc9ee853587e2c8510523208ccfd8a3857becec229146de87b09e81" target="_blank"><i></i>QQ群</a>
+					<a class="feed feed-rss" rel="external nofollow" href="http://www.sogua2008.com/feed" target="_blank"><i></i>RSS订阅</a>
+					<a class="feed feed-weixin" rel="external nofollow" href="javascript:;" title="关注”sogua2008com“" data-content="<img src='http://www.sogua2008.com/static/images/weixin.jpg'>"><i></i>微信<span class="feed-weixin-hide"><img src='http://www.sogua2008.com/static/images/weixin.jpg'></span></a>
+			</div>
+	<div class="slinks">
+		<a href="http://www.100doo.net/" title="百折网" target="_blank">百折网</a>|<a href="http://www.sogua2008.com" title="好东西分享" target="_blank">好东西分享</a><br><a href="https://100doo.cn" title="一百度热点" target="_blank">100度热点</a>|<a href="http://www.sogua2008.com/links" target="_blank">申请友情链接</a>	</div>
+
+	</header>
+<div class="content-wrap">
+	<div class="content">
+		<div class="ssr ssr-content ssr-posthd"><a href="http://www.kuyunzyw.vip" target="_blalnk"><img src="http://img2.sogua2008.com/2018/ky.gif"  border=0></a></div>				<header class="article-header">
+						<div class="breadcrumbs"><span class="text-muted">当前位置：</span><a href="http://www.sogua2008.com">搜刮好东西</a> <small>></small> <a href="http://www.sogua2008.com/muban">模板插件</a> <small>></small> <a href="http://www.sogua2008.com/muban/wpthemes">wordpress主题</a> <small>></small> <span class="text-muted">正文</span></div>
+						<h1 class="article-title"><a href="http://www.sogua2008.com/9232.html">WordPress主题：阿里百秀XIU主题7.7版本更新：新增兼容PHP 8.0、标签页SEO、手机端底部菜单和一些优化</a></h1>
+			<ul class="article-meta">
+								<li>
+					搜刮好东西 
+					发布于 2020-12-17				</li>
+				<li>分类：<a href="http://www.sogua2008.com/muban/wpthemes" rel="category tag">wordpress主题</a></li>								<li></li>								<li></li>			</ul>
+		</header>
+		<div class="ssr ssr-content ssr-post"><a href=http://www.sogua2008.com/vip target=_blank><img src=http://www.sogua2008.com/static/images/vipbanner.gif border=0></a>
+<div class="_017hlokw0ae3"></div>
+<script type="text/javascript">
+    (window.slotbydup = window.slotbydup || []).push({
+        id: "u2653080",
+        container: "_017hlokw0ae3",
+        async: true
+    });
+</script>
+
+</div>		<article class="article-content">
+			<p><span class="wp_keywordlink"><a title="搜刮" href="http://www.sogua2008.com/" target="_blank" rel="noopener noreferrer">搜刮</a></span><span class="wp_keywordlink_affiliate"><a title="好东西分享" href="http://www.sogua2008.com/">好东西分享</a></span>简介：<span class="wp_keywordlink_affiliate"><a title="View all posts in XIU主题" href="http://www.sogua2008.com/tag/xiu%e4%b8%bb%e9%a2%98" target="_blank" rel="noopener noreferrer">XIU主题</a></span>是非常不错的一款主题，本站所使用的就是Xiu主题。<span class="wp_keywordlink_affiliate"><a title="View all posts in XIU主题" href="http://www.sogua2008.com/tag/xiu%e4%b8%bb%e9%a2%98" target="_blank" rel="noopener noreferrer">XIU主题</a></span>是介于DUX和TOB之间的一款主题，既有资讯的浏览，也有图片的展示，尤其是多图展示的图片列表备受大家喜爱。</p>
+<p><img src="http://img2.sogua2008.com/2020/03/focus-xiu.png" data-tag="bdshare" /></p>
+<p><span class="wp_keywordlink_affiliate"><a title="View all posts in XIU主题" href="http://www.sogua2008.com/tag/xiu%e4%b8%bb%e9%a2%98" target="_blank" rel="noopener">XIU主题</a></span>是专注图文展示的一款<span class="wp_keywordlink_affiliate"><a title="View all posts in WordPress主题" href="http://www.sogua2008.com/tag/wordpress%e4%b8%bb%e9%a2%98" target="_blank" rel="noopener">WordPress主题</a></span>，目前使用者众多。</p>
+<p>本次<span class='wp_keywordlink_affiliate'><a href="http://www.sogua2008.com/tag/xiu%e4%b8%bb%e9%a2%98" title="View all posts in XIU主题" target="_blank">XIU主题</a></span>更新重点是几项功能新增，尤其是标签页的全面SEO功能，包含了标题、关键词和描述的独立设置。</p>
+<p>值得一提的更新：新增手机端底部菜单<br />
+手机端底部菜单是很多用户想要的功能，此次专门开发了这个也是满足大家的需求，手机端底部菜单是始终固定在手机端底部的一个<span class='wp_keywordlink'><a href="http://www.100doo.cn" title="上网导航">导航</a></span>菜单，不限数量，但都能整齐排列，建议设置3-5个菜单项最佳。</p>
+<p>设置方法：后台-外观-菜单，新建菜单，选择显示位置 手机端底部菜单，如果不想显示，就不勾选这个显示位置即可。</p>
+<p><span class='wp_keywordlink_affiliate'><a href="http://www.sogua2008.com/tag/xiu%e4%b8%bb%e9%a2%98" title="View all posts in XIU主题" target="_blank">XIU主题</a></span>7.7版本更新内容：<br />
+全面兼容 PHP 8.0<br />
+新增标签页的SEO设置（标题、关键词、描述）<br />
+新增手机端底部菜单<br />
+新增首页轮换图的alt属性以利于SEO<br />
+调整文章页图片弹窗在PC端也起作用<br />
+优化文章页图片弹窗点击效果</p>
+<p>&nbsp;</p>
+<wp_nokeywordlink><div id="post-poster" class="post-poster action action-poster" style="box-shadow: 0 0 0px rgba(0,0,0,.12);">
+			<a href="javascript:;" class="item" data-event="poster-popover">
+				<span>生成海报</span>
+			</a>
+			<div class="poster-qrcode" style="display:none;"></div>
+			<div class="poster-popover-mask" data-event="poster-close"></div>
+			<div class="poster-popover-box">
+				<a class="poster-download btn btn-default" download="9232.jpg">
+					<span>下载海报</span>
+				</a>
+			</div>
+		</div><script>
+			window.poster_img={
+				uri        : 'http://www.sogua2008.com/wp-content/plugins/WP-Poster',
+				ver        : '1.0',
+				bgimgurl   : 'http://www.sogua2008.com/wp-content/plugins/WP-Poster/static/images/xuxian.png',
+				post_title : 'WordPress主题：阿里百秀XIU主题7.7版本更新：新增兼容PHP 8.0、标签页SEO、手机端底部菜单和一些优化',
+				logo_pure  : 'http://www.sogua2008.com/static/images/logo2.png',
+				att_img    : 'http://www.sogua2008.com/wp-content/cache/poser-thumbnail/fa5c079a5ddf994108693e69af95f3ba-720-500.jpg',
+				excerpt    : '搜刮好东西分享简介：XIU主题是非常不错的一款主题，本站所使用的就是Xiu主题。XIU主题是介于DUX和TOB之间的一款主题，既有资讯的浏览，也有图片的展示，尤其是多图展示的图片列表备受大家喜爱。 XIU主题是专注图文展示的一款WordPress主题，目前使用者众多。 …',
+				author     : '搜刮好东西',
+				cat_name   : 'wordpress主题',
+				time_y_m   : '2020年12月',
+				time_d     : '17',
+				site_motto : '搜刮好东西：搜刮分享网络中的好东西！'
+			};
+		</script></wp_nokeywordlink>						<div class="ssr ssr-content-bom ssr-post"><a href=http://www.sogua2008.com/vip target=_blank><img src=http://www.sogua2008.com/static/images/vipbanner.gif border=0></a></div>  <p class="post-copyright">本站声明：本站所有好东西均来源于互联网，不保证100%完整、不提供任何技术支持，分享目的仅限于学习和测试，一切商业行为与本站无关，下载后请在24小时内删除。请勿用于商业用途，如需商业使用请向官方购买授权，由于使用该资源引起的侵权行为与本站无关！如有侵权，请联系info#sogua2008.com(将#换为@)及时删除！<br>本文地址：<a href="http://www.sogua2008.com">搜刮好东西</a> &raquo; <a href="http://www.sogua2008.com/9232.html">WordPress主题：阿里百秀XIU主题7.7版本更新：新增兼容PHP 8.0、标签页SEO、手机端底部菜单和一些优化</a></p>		</article>
+				<div class="article-social">
+			<a href="javascript:;" class="action action-like" data-pid="9232" data-event="like"><i class="glyphicon glyphicon-thumbs-up"></i>赞 (<span>0</span>)</a>				            <a href="javascript:;" class="action action-rewards" data-event="rewards"><i class="glyphicon glyphicon-usd"></i>打赏</a>
+	        			
+			<a class="post-linkto action" href="/go?url=aHR0cHM6Ly9kZW1vLnRoZW1lYmV0dGVyLmNvbS94aXUv" target="_blank" rel="external nofollow"><i class="glyphicon glyphicon-share-alt"></i>演示地址</a>			<a class="post-linkto action" href="/go?url=aHR0cDovL3d3dy5zb2d1YTIwMDguY24vdGhyZWFkLTIwNDAtMS0xLmh0bWw=" target="_blank" rel="external nofollow"><i class="glyphicon glyphicon-share-alt"></i>下载地址</a>			<br><br>
+			<p class="post-copyright"><a href="http://www.sogua2008.com/copyright" target="_blank"><font color=red><b>郑重提醒：下载前请必读《免责声明》</b></font></a><br/><font style="color:red;"><strong>解压密码：</strong></font>关注微信公众号（sogua2008com）发送“解压密码”获取此好东西解压密码。</p> 
+		</div>
+
+		<div class="share-single"><div class="action-share bdsharebuttonbox">
+分享到：
+<a class="bds_qzone" data-cmd="qzone" title="分享到QQ空间"></a>
+<a class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a>
+<a class="bds_weixin" data-cmd="weixin" title="分享到微信"></a>
+<a class="bds_tqq" data-cmd="tqq" title="分享到腾讯微博"></a>
+<a class="bds_sqq" data-cmd="sqq" title="分享到QQ好友"></a>
+<a class="bds_bdhome" data-cmd="bdhome" title="分享到百度新首页"></a>
+<a class="bds_tqf" data-cmd="tqf" title="分享到腾讯朋友"></a>
+<a class="bds_renren" data-cmd="renren" title="分享到人人网"></a>
+<a class="bds_diandian" data-cmd="diandian" title="分享到点点网"></a>
+<a class="bds_youdao" data-cmd="youdao" title="分享到有道云笔记"></a>
+<a class="bds_ty" data-cmd="ty" title="分享到天涯社区"></a>
+<a class="bds_kaixin001" data-cmd="kaixin001" title="分享到开心网"></a>
+<a class="bds_taobao" data-cmd="taobao"></a>
+<a class="bds_douban" data-cmd="douban" title="分享到豆瓣网"></a>
+<a class="bds_fbook" data-cmd="fbook" title="分享到Facebook"></a>
+<a class="bds_twi" data-cmd="twi" title="分享到Twitter"></a>
+<a class="bds_mail" data-cmd="mail" title="分享到邮件分享"></a>
+<a class="bds_copy" data-cmd="copy" title="分享到复制网址"></a>
+<a class="bds_more" data-cmd="more">更多</a>
+(<a class="bds_count" data-cmd="count" title="累计分享0次">0</a>)
+</div>
+<script>
+window._bd_share_config = {
+    common: {
+        "bdText": "",
+        "bdMini": "2",
+        "bdMiniList": false,
+        "bdPic": "",
+        "bdStyle": "0"
+    },
+    share: [{
+        bdCustomStyle: "http://www.sogua2008.com/wp-content/themes/xiu/css/share.css"
+    }]
+}
+with(document) 0[(getElementsByTagName("head")[0] || body).appendChild(createElement("script")).src = "http://bdimg.share.baidu.com/static/api/js/share.js?cdnversion=" + ~(-new Date() / 36e5)];
+</script></div>		
+		<div class="article-tags">
+			标签：<a href="http://www.sogua2008.com/tag/wordpress%e4%b8%bb%e9%a2%98" rel="tag">WordPress主题</a><a href="http://www.sogua2008.com/tag/xiu" rel="tag">xiu</a><a href="http://www.sogua2008.com/tag/xiu%e4%b8%bb%e9%a2%98" rel="tag">XIU主题</a><a href="http://www.sogua2008.com/tag/%e9%98%bf%e9%87%8c%e7%99%be%e7%a7%80" rel="tag">阿里百秀</a>		</div>
+
+				<div class="article-author">
+			<img data-original="http://img3.sogua2008.com/2020/08/haologo1.png" width="1" height="1" alt="搜刮好东西" class="avatar avatar-50 wp-user-avatar wp-user-avatar-50 alignnone photo" />			<h4>作者：<a title="查看更多文章" href="http://www.sogua2008.com/author/fm991">搜刮好东西</a></h4>
+			<div class="article-author-desc">搜刮好东西官方账号，分享好东西，共同学习研究。</div>
+		</div>
+		
+		<nav class="article-nav">
+			<span class="article-nav-prev"><span>上一篇</span><a href="http://www.sogua2008.com/9230.html" rel="prev">WordPress插件：WordPress优化插件WP Rocket v3.8.0 激活版</a></span>
+			<span class="article-nav-next"><span>下一篇</span><a href="http://www.sogua2008.com/9234.html" rel="next">WordPress主题：大前端DUX主题6.8版本：兼容PHP 8.0，新增11项包含评论审核通知邮件、文章自定义版权等功能</a></span>
+		</nav>
+
+		<div class="ssr ssr-content ssr-related"><div class="_wg9ma8wwwph"></div>
+<script type="text/javascript">
+    (window.slotbydup = window.slotbydup || []).push({
+        id: "u3006167",
+        container: "_wg9ma8wwwph",
+        async: true
+    });
+</script>
+
+</div>		<div class="relates relates-model-thumb"><h3 class="title"><strong>相关推荐</strong></h3><ul><li><a href="http://www.sogua2008.com/9234.html"><img data-original="http://img2.sogua2008.com/2020/03/focus-dux.png" class="thumb"/>WordPress主题：大前端DUX主题6.8版本：兼容PHP 8.0，新增11项包含评论审核通知邮件、文章自定义版权等功能</a></li><li><a href="http://www.sogua2008.com/9216.html"><img data-original="http://img2.sogua2008.com/2020/03/194820t9l21mfuez7jlriv.jpg" class="thumb"/>WordPress主题：资源下载主题 Modown V5.3 付费下载资源/付费查看内容</a></li><li><a href="http://www.sogua2008.com/9212.html"><span><img src="http://www.sogua2008.com/wp-content/themes/xiu/images/thumbnail.png" data-original="http://img3.sogua2008.com/2020/12/20201208145920.jpg" class="thumb"/></span>WordPress主题：RiPro 8.4 高级资源类博客RiPro主题</a></li><li><a href="http://www.sogua2008.com/9206.html"><span><img src="http://www.sogua2008.com/wp-content/themes/xiu/images/thumbnail.png" data-original="http://img3.sogua2008.com/2020/12/103455lamsg4zpl6aq4pqi.jpg" class="thumb"/></span>WordPress主题：RiPro XB-RIPRO子主题V8.0版本</a></li><li><a href="http://www.sogua2008.com/9203.html"><img data-original="http://img2.sogua2008.com/2020/04/195800apep8mlvalg3a7ae.jpg" class="thumb"/>WordPress主题：Divi Theme v4.7.3 WordPress多风格主题</a></li><li><a href="http://www.sogua2008.com/9199.html"><img data-original="http://img3.sogua2008.com/2020/11/2018100404531395.png" class="thumb"/>WordPress主题：JNews v7.1.7 &#8211; 简约博客杂志网站模板AMP主题</a></li><li><a href="http://www.sogua2008.com/9197.html"><img data-original="http://img2.sogua2008.com/2020/03/154459hzokonsb4qf2a1os.jpg" class="thumb"/>WordPress主题：JustMedia V2.11 图片+视频+自媒体资讯类WP模板</a></li><li><a href="http://www.sogua2008.com/9194.html"><span><img src="http://www.sogua2008.com/wp-content/themes/xiu/images/thumbnail.png" data-original="http://img3.sogua2008.com/2020/11/172229w4ucsq3c5sqzqyg5.png" class="thumb"/></span>WordPress主题：酱茄Free主题v1.0-酱茄WordPress开源主题</a></li></ul></div>		<div class="sticky"><h3 class="title"><strong>置顶推荐</strong></h3><ul><li class="item"><a href="http://www.sogua2008.com/7808.html"><img data-original="http://img2.sogua2008.com/2020/03/011.png" class="thumb"/>WordPress主题：WordPress高级模板Vieu主题V4.6.4正式版  轻量级自媒体、资讯类主题 <span>独家</span></a></li><li class="item"><a href="http://www.sogua2008.com/7759.html"><img data-original="http://img2.sogua2008.com/2020/04/62c92ba585f74ec.jpg" class="thumb"/>WordPress主题：高级资源类博客主题RiPro主题V6.6</a></li><li class="item"><a href="http://www.sogua2008.com/7737.html"><img data-original="http://img2.sogua2008.com/2020/04/20191116111709_wpdaxue_com.jpg" class="thumb"/>WordPress主题：WordPress昼夜双色博客主题 Panda PRO</a></li><li class="item"><a href="http://www.sogua2008.com/7715.html"><img data-original="http://img2.sogua2008.com/2020/04/owell_20200115_150813.jpg" class="thumb"/>WordPress主题：WebStack Pro 导航主题高级版2.0405</a></li></ul></div>		<div class="ssr ssr-content ssr-comment"><div class="_wg9ma8wwwph"></div>
+<script type="text/javascript">
+    (window.slotbydup = window.slotbydup || []).push({
+        id: "u3006167",
+        container: "_wg9ma8wwwph",
+        async: true
+    });
+</script>
+</div>			</div>
+</div>
+<div class="sidebar">	
+<div class="widget widget_postlist"><h3 class="title"><strong>最新文章</strong></h3><ul class="items-01"><li class="has-thumb"><a href="http://www.sogua2008.com/9234.html"><span class="thumbnail"><img data-original="http://img2.sogua2008.com/2020/03/focus-dux.png" class="thumb"/></span><span class="text">WordPress主题：大前端DUX主题6.8版本：兼容PHP 8.0，新增11项包含评论审核通知邮件、文章自定义版权等功能</span></a></li><li class="has-thumb"><a href="http://www.sogua2008.com/9232.html"><span class="thumbnail"><img data-original="http://img2.sogua2008.com/2020/03/focus-xiu.png" class="thumb"/></span><span class="text">WordPress主题：阿里百秀XIU主题7.7版本更新：新增兼容PHP 8.0、标签页SEO、手机端底部菜单和一些优化</span></a></li><li class="has-thumb"><a href="http://www.sogua2008.com/9230.html"><span class="thumbnail"><img data-original="http://img2.sogua2008.com/2020/04/132216d206277pxlcx2bjf.jpg" class="thumb"/></span><span class="text">WordPress插件：WordPress优化插件WP Rocket v3.8.0 激活版</span></a></li><li class="has-thumb"><a href="http://www.sogua2008.com/9223.html"><span class="thumbnail"><span><img src="http://www.sogua2008.com/wp-content/themes/xiu/images/thumbnail.png" data-original="http://img3.sogua2008.com/2020/12/laobuluo-weixin-1.jpg" class="thumb"/></span></span><span class="text">WordPress插件：WordPress隐藏内容关注公众号可见引流插件（随机验证码可选API方式）</span></a></li></ul></div><div class="widget widget_ssr"><div class="widget_ssr_inner"><div class="_11llrbm2f8vn"></div>
+<script type="text/javascript">
+    (window.slotbydup = window.slotbydup || []).push({
+        id: "u4654813",
+        container: "_11llrbm2f8vn",
+        async: true
+    });
+</script></div></div><div class="widget widget_tags"><h3 class="title"><strong>热门标签</strong></h3><ul class="widget_tags_inner"><li><a title="315个话题" href="http://www.sogua2008.com/tag/vip">vip</a></li><li><a title="201个话题" href="http://www.sogua2008.com/tag/wordpress%e4%b8%bb%e9%a2%98">WordPress主题</a></li><li><a title="180个话题" href="http://www.sogua2008.com/tag/php">php</a></li><li><a title="143个话题" href="http://www.sogua2008.com/tag/%e6%b7%98%e5%ae%9d%e5%ae%a2">淘宝客</a></li><li><a title="120个话题" href="http://www.sogua2008.com/tag/%e6%b7%98%e5%ae%a2">淘客</a></li><li><a title="63个话题" href="http://www.sogua2008.com/tag/%e5%ad%a6%e4%b9%a0">学习</a></li><li><a title="53个话题" href="http://www.sogua2008.com/tag/wordpress">wordpress</a></li><li><a title="50个话题" href="http://www.sogua2008.com/tag/wordpress%e6%8f%92%e4%bb%b6">WordPress插件</a></li><li><a title="44个话题" href="http://www.sogua2008.com/tag/seo">seo</a></li><li><a title="44个话题" href="http://www.sogua2008.com/tag/%e7%a0%b4%e8%a7%a3%e7%89%88">破解版</a></li><li><a title="38个话题" href="http://www.sogua2008.com/tag/dedecms">dedecms</a></li><li><a title="36个话题" href="http://www.sogua2008.com/tag/%e5%be%ae%e4%bf%a1">微信</a></li><li><a title="35个话题" href="http://www.sogua2008.com/tag/%e5%95%86%e4%b8%9a%e6%a8%a1%e6%9d%bf">商业模板</a></li><li><a title="34个话题" href="http://www.sogua2008.com/tag/%e9%a3%9e%e5%a4%a9%e4%be%a0">飞天侠</a></li><li><a title="33个话题" href="http://www.sogua2008.com/tag/%e6%a8%a1%e6%9d%bf">模板</a></li><li><a title="32个话题" href="http://www.sogua2008.com/tag/ripro">RiPro</a></li><li><a title="31个话题" href="http://www.sogua2008.com/tag/wordpress%e6%a8%a1%e6%9d%bf">wordpress模板</a></li><li><a title="26个话题" href="http://www.sogua2008.com/tag/%e7%ab%99%e9%95%bf">站长</a></li><li><a title="25个话题" href="http://www.sogua2008.com/tag/%e5%be%ae%e4%bf%a1%e8%90%a5%e9%94%80">微信营销</a></li><li><a title="25个话题" href="http://www.sogua2008.com/tag/%e5%be%ae%e4%bf%a1%e5%85%ac%e4%bc%97%e5%b9%b3%e5%8f%b0">微信公众平台</a></li><li><a title="24个话题" href="http://www.sogua2008.com/tag/%e6%95%99%e7%a8%8b">教程</a></li><li><a title="24个话题" href="http://www.sogua2008.com/tag/wordpress%e6%95%99%e7%a8%8b">wordpress教程</a></li><li><a title="20个话题" href="http://www.sogua2008.com/tag/%e5%80%bc%e5%be%97%e4%b9%b0">值得买</a></li><li><a title="20个话题" href="http://www.sogua2008.com/tag/ripro%e4%b8%bb%e9%a2%98">RIPro主题</a></li></ul></div><div class="widget widget_ssr"><div class="widget_ssr_inner"><a href="https://s.click.taobao.com/t?e=m%3D2%26s%3DL7fisGzi2dUcQipKwQzePCperVdZeJviEViQ0P1Vf2kguMN8XjClAqX9SNJGLex37ssV2ME%2BLv7qGo1GWvL9hrhRiUw0EfJwhc552UbCm1uFfJsCozW7mGDLEhy1nIVFbUJfLy3crHqR4ypTBJBwtOnbtOD3UdznPV1H2z0iQv9NkKVMHClW0QbMqOpFMIvnL%2FyHLeud3msy%2BEH9ZwFCg8sXphn2mgyFbDgoQFdl%2BG4hhQs2DjqgEA%3D%3D" target="_blank"><img src="/static/images/aliyun.jpg" alt="阿里云5折特惠"></a></div></div></div><!--cos-html-cache-safe-tag--><footer class="footer">
+	    &copy; 2020 <a href="http://www.sogua2008.com">搜刮好东西</a> 
+        &nbsp; 本站主题由 <a href="http://www.sogua2008.com/5778.html" target="_blank">搜刮好东西</a> 免费提供        &nbsp; <a href="http://www.sogua2008.com/sitemap.xml">网站地图</a>&nbsp;&nbsp;<a href="http://www.sogua2008.com/copyright">免责声明</a>&nbsp;&nbsp;<a href="https://beian.miit.gov.cn/" target=_blank>鲁ICP备12026351号-1</a>
+    </footer>
+</section>
+
+	<div class="rewards-popover-mask" data-event="rewards-close"></div>
+	<div class="rewards-popover">
+		<h3>觉得文章有用就打赏一下文章作者</h3>
+				<div class="rewards-popover-item">
+			<h4>支付宝扫一扫打赏</h4>
+			<img src="http://img2.sogua2008.com/2013/12/ap9h47499813de2aa6-22.png">
+		</div>
+						<div class="rewards-popover-item">
+			<h4>微信扫一扫打赏</h4>
+			<img src="http://www.sogua2008.com/static/images/wxshang.jpg">
+		</div>
+				<span class="rewards-popover-close" data-event="rewards-close"><i class="glyphicon glyphicon-remove"></i></span>
+	</div>
+
+<script>
+window.jui = {
+	uri: 'http://www.sogua2008.com/wp-content/themes/xiu',
+	roll: '1 2',
+	ajaxpager: '0'
+}
+</script>
+<!--ADD_CODE_FOOTER_START-->
+<!-- 多条广告如下脚本只需引入一次 -->
+<script type="text/javascript" src="//cpro.baidustatic.com/cpro/ui/cm.js" async="async" defer="defer" >
+</script>
+<script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.6/dist/clipboard.min.js"></script>
+<script src="https://s3.pstatp.com/cdn/expire-1-M/jquery/3.3.1/jquery.min.js"></script>
+<script>
+	var btn=document.getElementById('sgbtn');
+	var clipboard=new ClipboardJS(btn);
+	clipboard.on('success', function(e){
+		$('#sgshow').slideDown(slow).delay(1500).slideUp(slow);
+		console.log(e);
+	});
+	clipboard.on('error', function(e){
+		$('#sgshow').slideDown(slow).delay(1500).slideUp(slow);
+		console.log(e);
+	});
+
+</script>
+<!--ADD_CODE_FOOTER_END-->
+<script type='text/javascript' src='http://www.sogua2008.com/wp-content/themes/xiu/js/jquery.js?ver=7.6' id='jquery-js'></script>
+<script type='text/javascript' src='http://www.sogua2008.com/wp-content/plugins/WP-Poster/static/js/main.js?ver=5.6' id='poster-main-js'></script>
+<script type='text/javascript' src='http://www.sogua2008.com/wp-content/themes/xiu/js/bootstrap.js?ver=7.6' id='_bootstrap-js'></script>
+<script type='text/javascript' src='http://www.sogua2008.com/wp-content/themes/xiu/js/custom.js?ver=7.6' id='_custom-js'></script>
+<script type='text/javascript' src='http://www.sogua2008.com/wp-includes/js/wp-embed.min.js?ver=5.6' id='wp-embed-js'></script>
+<script type='text/javascript' src='http://www.sogua2008.com/wp-content/plugins/WP-Poster/static/js/require.min.js?ver=2020.01.11'></script></body>
+</html><!--this is a real static html file created at 2020-12-17 14:14:45 by cos-html-cache 2.7.3 -->
