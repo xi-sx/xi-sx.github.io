@@ -1,0 +1,148 @@
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    position: relative;
+    height: 105px;
+}
+
+.logo {
+    position: absolute;
+    top: 25px;
+    left: 0;
+    width: 171px;
+    height: 61px;
+}
+
+.logo a {
+    display: block;
+    width: 171px;
+    height: 61px;
+    background: url(../images/logo.png) no-repeat;
+    font-size: 0;
+    /* 京东的做法 */
+}
+
+.main {
+    position: relative;
+    width: 1920px;
+    height: 486px;
+    background: url(../images/loginbg-1.png) no-repeat;
+}
+
+.login {
+    position: absolute;
+    top: 62px;
+    left: 1066px;
+    width: 380px;
+    height: 364px;
+    background-color: #fff;
+}
+
+.login_hd {
+    width: 380px;
+    height: 64px;
+    padding: 23px 48px;
+    line-height: 18px;
+}
+
+.login_hd h3 {
+    float: left;
+    padding-right: 68px;
+    font-size: 18px;
+    color: #adadad;
+}
+
+.login_hd h3:last-child {
+    border-left: 1px solid #ccc;
+    padding: 0 0 0 68px;
+    color: #d9777c;
+}
+
+.login_bd {
+    width: 380px;
+    padding: 0 37px;
+}
+
+.login_bd>h4 {
+    width: 304px;
+    height: 26px;
+    border: 1px solid #f5eecf;
+    padding-left: 15px;
+    margin-bottom: 10px;
+    font-size: 12px;
+    font-weight: 400;
+    color: #666;
+    line-height: 26px;
+    background-color: #fffdee;
+}
+
+.login_bd .col_303 {
+    width: 303px;
+    height: 36px;
+    border: 1px solid #ccc;
+    margin-bottom: 17px;
+    color: #bbbaba;
+    line-height: 36px;
+    background-color: #bbbaba;
+}
+
+.col_303 input {
+    width: 301px;
+    height: 34px;
+    padding-left: 48px;
+    vertical-align: top;
+}
+
+.col_303 .zhanghao {
+    background-image: url(../images/zhanghao.png);
+    background-repeat: no-repeat;
+}
+
+.col_303 input:focus {
+    outline: rgba(72, 190, 226, 0.938) double 2px;
+    outline-offset: 1px;
+}
+
+.col_303 .password {
+    background-image: url(../images/password.png);
+    background-repeat: no-repeat;
+}
+
+.login_bd_login a {
+    float: right;
+}
+
+.zidong {
+    vertical-align: middle;
+}
+
+.btn {
+    width: 303px;
+    height: 41px;
+    margin: 19px 0;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    line-height: 41px;
+    background-color: #c81623;
+}
+
+.mod_copyright {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.links {
+    margin-bottom: 15px;
+}
+
+.links a {
+    margin: 0 3px;
+}
+
+.copyright {
+    line-height: 20px;
+}
